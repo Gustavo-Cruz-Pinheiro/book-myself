@@ -1,0 +1,182 @@
+html{
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #1E1E1E;
+    /* height: 1000px; */
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 5px rgb(73, 75, 73);
+    z-index: 999;
+}
+
+.nav-content {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav img {
+    height: 50px;
+    width: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin: 100px;
+    display: inline;
+    cursor: pointer; 
+}
+
+#active {
+    border-bottom: solid 5px rgb(37, 223, 37);
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav-menu li a:hover {
+    color: rgb(37, 223, 37);
+    border-bottom: solid 5px rgb(37, 223, 37);
+}
+
+
+.content {
+    background-color: rgb(15, 15, 15);
+    padding-top: 130px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;    
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-me {
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    width: 100%;    
+}
+
+.about-me p {
+    padding-top: 10px;
+    line-height: 1.5;
+    width: 80%;
+    text-align: justify;
+}
+
+.about-me li {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color:gray
+}
+
+.transition {
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/transition-home.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    border-top: solid 5px rgb(73, 75, 73);
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+.socia-media {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.socia-media a {
+    padding-left: 5px;
+}
+
+.socia-media img {
+    height: 25px;
+    width: 25px;
+}
+
+.divider {
+    padding-left: 20%;
+    padding-bottom: 25px;
+    width: 60%;
+}
+
+.divider hr {
+    width: 100%;
+}
+
+.credit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
